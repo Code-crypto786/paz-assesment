@@ -1,0 +1,47 @@
+.banner-section{
+    background: transparent url('/assets/images/home-banner.png') 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .rectangle-home{
+        background: #00000052;
+        padding: 8% 5%;
+    }
+}
+.section-2{
+    background: linear-gradient(90deg, rgba(40,54,6,1) 0%, rgba(15,21,0,1) 100%);
+    color: #FFF;
+    .section-2-content{
+        padding-top: 70px;
+        padding-bottom: 30px;
+        .back-ground-video{
+            background: transparent url('/assets/images/2nd-section-img.png') 0% 0% no-repeat padding-box;
+            background-repeat: no-repeat;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+            height: 502px;
+            background-size: cover;
+            .white-circle{
+                position: relative;
+                background-color: #FFF;
+                width: 75px;
+                height: 75px;
+                border-radius: 58px;
+                .white-circle-img{
+                    position: absolute;
+                    top: 25%;
+                    right: 25%;
+                }
+            }
+        }
+    }
+}
+.section-3{
+    background: linear-gradient(90deg, rgba(40,54,6,1) 0%, rgba(15,21,0,1) 100%);
+    color: #FFF;
+    .section-2-content{
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+}

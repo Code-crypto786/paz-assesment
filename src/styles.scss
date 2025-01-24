@@ -1,0 +1,63 @@
+
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import 'ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #FFF !important;
+  font-family: 'Inter', sans-serif;
+}
+
+.paz-btn-primary {
+  padding: 8px 32px;
+  background: linear-gradient(90deg, #ad8749 35%, #dcbb75 100%);
+  border-radius: 16px;
+  opacity: 1;
+  font-size: 15px; 
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+}
+
+.heading {
+  font-size: 68px;
+  font-family: 'Playfair Display', serif; 
+  font-weight: normal;
+}
+
+.sub-heading {
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+.nav-item {
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: #FFF !important;
+}
+
+.paz-primary-paragraph {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+.paz-just-content-card{
+  background: #313D14;
+  border-radius: 25px;
+  padding: 24px;
+
+}
+.paz-content-card{
+  background: #313D14;
+  border-radius: 38px;
+  padding: 12px;
+}
